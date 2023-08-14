@@ -19,7 +19,7 @@
 const year = (YourAge) => {
 
     let limitYear = 2020
-    let durationYear = limitYear - YourAge + 1 // 27
+    let durationYear = limitYear - YourAge  // 27
     console.log(`duration is: ${durationYear} year`)
     let totalDayOfYear = 365
     let totalDayOfYearGetFebuary = 366
